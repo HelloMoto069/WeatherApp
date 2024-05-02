@@ -31,7 +31,7 @@ import {
   AverageTempImg,
   PressureImg,
   VisibilityImg,
-} from 'icons/IconComponent';
+} from '../../icons/IconComponent';
 
 import { HourlyForecastList } from './ForecastList/HourlyForecastList/HourlyForecastList';
 import { WeeklyForecastList } from './ForecastList/WeeklyForecastList/WeeklyForecastList';

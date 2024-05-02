@@ -15,7 +15,7 @@ import {
   GitImg,
   LinkedinImg,
   TelegramImg,
-} from 'icons/IconComponent';
+} from '../../icons/IconComponent';
 
 export const Footer = () => {
   return (

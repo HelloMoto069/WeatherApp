@@ -13,7 +13,7 @@ import {
   CloseBtn,
 } from './WeatherCard.styled';
 
-import { CloseCardImg } from 'icons/IconComponent';
+import { CloseCardImg } from '../../icons/IconComponent';
 
 function WeatherCard({ weatherCity, onCloseBtn, onDeleteCard }) {
   const [currentTime, setCurrentTime] = useState(new Date());

@@ -16,7 +16,7 @@ import {
 } from '../../Api/apiService';
 import { Loader } from '../Loader/Loader';
 
-import { WeatherCityClose, CorrectListImg } from 'icons/IconComponent';
+import { WeatherCityClose, CorrectListImg } from '../../icons/IconComponent';
 import { HomePageContext } from 'pages/Homepage';
 
 export const WeatherCity = ({
