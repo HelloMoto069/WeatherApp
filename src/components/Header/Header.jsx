@@ -7,7 +7,7 @@ import {
   CurrentTime,
   CurrentDate,
 } from './Header.styled';
-import { MenuBurgerImg } from 'icons/IconComponent.jsx';
+import { MenuBurgerImg } from '../../icons/IconComponent';
 
 export const Header = ({ isOpen, setIsOpen }) => {
   const [currentTime, setCurrentTime] = useState(new Date());
