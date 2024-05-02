@@ -17,7 +17,7 @@ import {
 import { Loader } from '../Loader/Loader';
 
 import { WeatherCityClose, CorrectListImg } from '../../icons/IconComponent';
-import { HomePageContext } from 'pages/Homepage';
+import { HomePageContext } from '../../pages/Homepage';
 
 export const WeatherCity = ({
   weather,

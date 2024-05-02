@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Container } from './Weather.styled';
 import WeatherCard from '../WeatherCard/WeatherCard';
-import { HomePageContext } from 'pages/Homepage';
+import { HomePageContext } from '../../pages/Homepage';
 
 export const WeatherList = ({ onCloseBtn, onDeleteCard }) => {
   const { weatherCities, handlerSelectWeatherCity } = useContext(HomePageContext);

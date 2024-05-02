@@ -11,7 +11,7 @@ import {
   MyLocation,
   Location,
 } from './MyLocationCard.styled';
-import { HomePageContext } from 'pages/Homepage';
+import { HomePageContext } from '../../pages/Homepage';
 
 function MyLocationCard({ weather }) {
   const { setWeatherSection, setCurrentWeatherCityId } =

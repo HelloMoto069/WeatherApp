@@ -1,8 +1,8 @@
-import React, { useContext } from 'react';
-import LocationWeather from '../LocationWeather/LocationWeather';
-import { WeatherWidgets } from '../WeatherWidgets/WeatherWidgets';
-import { Section } from './WeatherSection.styled';
-import { HomePageContext } from 'pages/Homepage';
+import React, { useContext } from "react";
+import LocationWeather from "../LocationWeather/LocationWeather";
+import { WeatherWidgets } from "../WeatherWidgets/WeatherWidgets";
+import { Section } from "./WeatherSection.styled";
+import { HomePageContext } from "../../pages/Homepage";
 
 export const WeatherSection = () => {
   const { locationForecast, forecastSection, locationWeather, weatherSection } =
